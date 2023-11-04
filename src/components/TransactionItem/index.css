@@ -1,0 +1,16 @@
+.transactionItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.delete-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

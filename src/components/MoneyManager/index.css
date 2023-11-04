@@ -1,0 +1,112 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.money-manager-card {
+  width: 80%;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .money-manager-card {
+    max-width: 1140px;
+  }
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 172px;
+  border-radius: 16px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .heading-container {
+    align-items: flex-start;
+  }
+}
+.transaction-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 768px) {
+  .transaction-details {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.addTransaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 323px;
+  width: 100px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 34px;
+}
+@media screen and (min-width: 768px) {
+  .addTransaction {
+    width: 40px;
+    padding-left: 48px;
+    padding-right: 43px;
+  }
+}
+.history {
+  width: 100%;
+  min-height: 326px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .history {
+    width: 55%;
+    min-height: 424px;
+    padding-left: 28px;
+    padding-right: 41px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+  }
+}
+.transaction-table {
+  height: 100%;
+  border-radius: 8px;
+}
+.transaction-table-container {
+  padding-left: 0px;
+  margin: 0px;
+}
+.table-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+}
+.table-header-cell {
+  color: #334155;
+  width: 30%;
+  border-right: none;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .table-header-cell {
+    font-size: 16px;
+  }
+}
